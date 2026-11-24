@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1CA668AAE194AC7DFBEF94 /* Altara/Views/DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18C44DF812694F7AFE8702 /* Altara/Views/DashboardView.swift */; };
+		314CBE5618EE8B3595A9EC2E /* AltaraWidgets/ObservationLiveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D269BE2EA087F72792AE88 /* AltaraWidgets/ObservationLiveWidget.swift */; };
+		4118A89469172DAEBA24275D /* Altara/App/AltaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004A3E03BE00D31A5FC468EF /* Altara/App/AltaraApp.swift */; };
+		5DE22F63926FE3731DDF84C0 /* Altara/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2926CDE51B6613F85B0A35 /* Altara/Resources/Assets.xcassets */; };
+		6A28FCE712B427D3C3A82AE1 /* Altara/Core/ObservationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F8B8925CF9546E556CE66 /* Altara/Core/ObservationService.swift */; };
+		744DB3E911072F7A8B35E39B /* Altara/Views/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE3D9D4E30FBF3A556F9EF /* Altara/Views/RootView.swift */; };
+		8033ECC3C331F13F567FE181 /* Shared/ObservationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DF7393F5E3A80989798270 /* Shared/ObservationAttributes.swift */; };
+		8A09167B48B640067A2452B9 /* Shared/AltitudeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B35811883B9252011BD0BF /* Shared/AltitudeData.swift */; };
+		948075B9F2BCF9853AB303C4 /* Shared/AltitudeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B35811883B9252011BD0BF /* Shared/AltitudeData.swift */; };
+		A5E19077AB7F0512476FBED7 /* Shared/ObservationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DF7393F5E3A80989798270 /* Shared/ObservationAttributes.swift */; };
+		C38C11996181FAF5E4F3DE79 /* Altara/Views/PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A5EB9A5AA84A7273515EA /* Altara/Views/PlacesView.swift */; };
+		C55E83DD2320B1B463C36266 /* Altara/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2926CDE51B6613F85B0A35 /* Altara/Resources/Assets.xcassets */; };
+		CAE4126752663718CAE08BA8 /* Altara/Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255964D0ACAF42742798287 /* Altara/Views/SettingsView.swift */; };
+		CFBCC5ED310390ECDF47BAF8 /* AltaraWidgets/AltaraWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EDD2B3CDC41A6AB49A4E92 /* AltaraWidgets/AltaraWidget.swift */; };
+		DC8A8FE683D7BE0A2F40AA5D /* Altara/Core/LiveObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0897632562A44CF2BE6A2AB /* Altara/Core/LiveObservation.swift */; };
+		E80B54E539702E60801DA216 /* Altara/Core/PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E8C88DE3113C615B45708D /* Altara/Core/PlaceStore.swift */; };
+		F93334E85CADF3A1FED5EB53 /* Altara/Views/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D08FAE72DE060DDAD73FF2 /* Altara/Views/Theme.swift */; };
+		FAE608D04BA82A38D1FB0D81 /* AltaraWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6FE97EEF8A2C50BDAC49A7B2 /* AltaraWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1241936D4DD3AAD68FE7BFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538C8F882DA45C187D87D5EF;
+			remoteInfo = AltaraWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A1EED22144C3F04485A69EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FAE608D04BA82A38D1FB0D81 /* AltaraWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		004A3E03BE00D31A5FC468EF /* Altara/App/AltaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/App/AltaraApp.swift; sourceTree = SOURCE_ROOT; };
+		0CC3F0274FC02892368AEC44 /* Altara/Resources/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Altara/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		114DE0BB67E20421EE8E6211 /* AltaraWidgets/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AltaraWidgets/Info.plist; sourceTree = SOURCE_ROOT; };
+		1255964D0ACAF42742798287 /* Altara/Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Views/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		15D08FAE72DE060DDAD73FF2 /* Altara/Views/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Views/Theme.swift; sourceTree = SOURCE_ROOT; };
+		19DF7393F5E3A80989798270 /* Shared/ObservationAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/ObservationAttributes.swift; sourceTree = SOURCE_ROOT; };
+		45B35811883B9252011BD0BF /* Shared/AltitudeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/AltitudeData.swift; sourceTree = SOURCE_ROOT; };
+		45D269BE2EA087F72792AE88 /* AltaraWidgets/ObservationLiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltaraWidgets/ObservationLiveWidget.swift; sourceTree = SOURCE_ROOT; };
+		6F2926CDE51B6613F85B0A35 /* Altara/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Altara/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		6FE97EEF8A2C50BDAC49A7B2 /* AltaraWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AltaraWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BE3D9D4E30FBF3A556F9EF /* Altara/Views/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Views/RootView.swift; sourceTree = SOURCE_ROOT; };
+		79E8C88DE3113C615B45708D /* Altara/Core/PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Core/PlaceStore.swift; sourceTree = SOURCE_ROOT; };
+		943F8E8E69709519AFA2D8E5 /* Altara/Resources/Altara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Altara/Resources/Altara.entitlements; sourceTree = SOURCE_ROOT; };
+		966E6EC032E12B67E1903BB5 /* AltaraWidgets/AltaraWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AltaraWidgets/AltaraWidgets.entitlements; sourceTree = SOURCE_ROOT; };
+		A98A5EB9A5AA84A7273515EA /* Altara/Views/PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Views/PlacesView.swift; sourceTree = SOURCE_ROOT; };
+		C0897632562A44CF2BE6A2AB /* Altara/Core/LiveObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Core/LiveObservation.swift; sourceTree = SOURCE_ROOT; };
+		C23F8B8925CF9546E556CE66 /* Altara/Core/ObservationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Core/ObservationService.swift; sourceTree = SOURCE_ROOT; };
+		DB18C44DF812694F7AFE8702 /* Altara/Views/DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altara/Views/DashboardView.swift; sourceTree = SOURCE_ROOT; };
+		E1EDD2B3CDC41A6AB49A4E92 /* AltaraWidgets/AltaraWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltaraWidgets/AltaraWidget.swift; sourceTree = SOURCE_ROOT; };
+		E381509B253BD9E3A8F081B4 /* Altara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0091B23E7484A776FA8A9C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F707F45D93AC55CB4BE74AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3E27B8CA818264D75C8D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E381509B253BD9E3A8F081B4 /* Altara.app */,
+				6FE97EEF8A2C50BDAC49A7B2 /* AltaraWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D6E4079E36703EBD37C0072 = {
+			isa = PBXGroup;
+			children = (
+				004A3E03BE00D31A5FC468EF /* Altara/App/AltaraApp.swift */,
+				C0897632562A44CF2BE6A2AB /* Altara/Core/LiveObservation.swift */,
+				C23F8B8925CF9546E556CE66 /* Altara/Core/ObservationService.swift */,
+				79E8C88DE3113C615B45708D /* Altara/Core/PlaceStore.swift */,
+				DB18C44DF812694F7AFE8702 /* Altara/Views/DashboardView.swift */,
+				A98A5EB9A5AA84A7273515EA /* Altara/Views/PlacesView.swift */,
+				74BE3D9D4E30FBF3A556F9EF /* Altara/Views/RootView.swift */,
+				1255964D0ACAF42742798287 /* Altara/Views/SettingsView.swift */,
+				15D08FAE72DE060DDAD73FF2 /* Altara/Views/Theme.swift */,
+				E1EDD2B3CDC41A6AB49A4E92 /* AltaraWidgets/AltaraWidget.swift */,
+				45D269BE2EA087F72792AE88 /* AltaraWidgets/ObservationLiveWidget.swift */,
+				45B35811883B9252011BD0BF /* Shared/AltitudeData.swift */,
+				19DF7393F5E3A80989798270 /* Shared/ObservationAttributes.swift */,
+				6F2926CDE51B6613F85B0A35 /* Altara/Resources/Assets.xcassets */,
+				0CC3F0274FC02892368AEC44 /* Altara/Resources/Info.plist */,
+				114DE0BB67E20421EE8E6211 /* AltaraWidgets/Info.plist */,
+				943F8E8E69709519AFA2D8E5 /* Altara/Resources/Altara.entitlements */,
+				966E6EC032E12B67E1903BB5 /* AltaraWidgets/AltaraWidgets.entitlements */,
+				0A3E27B8CA818264D75C8D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E8A8A10CB76CC155B1D5D1 /* Altara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B849D4863CFB056CB1A0FBC6 /* Build configuration list for PBXNativeTarget "Altara" */;
+			buildPhases = (
+				7C8F7B0FC8B51131AF7EA5B4 /* Sources */,
+				0091B23E7484A776FA8A9C66 /* Frameworks */,
+				E6ED76EE6D6DD4E1A33D2C42 /* Resources */,
+				8A1EED22144C3F04485A69EE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE3E71EF8635D2BF27913BB /* PBXTargetDependency */,
+			);
+			name = Altara;
+			productName = Altara;
+			productReference = E381509B253BD9E3A8F081B4 /* Altara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		538C8F882DA45C187D87D5EF /* AltaraWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED72DBAB76C63CA13E1C97B /* Build configuration list for PBXNativeTarget "AltaraWidgets" */;
+			buildPhases = (
+				6E2F5AAC46EB2B726186A2BB /* Sources */,
+				6F707F45D93AC55CB4BE74AB /* Frameworks */,
+				9A34E80FFF3447439DD2B00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltaraWidgets;
+			productName = AltaraWidgets;
+			productReference = 6FE97EEF8A2C50BDAC49A7B2 /* AltaraWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244210E48437B6556980A702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2630;
+			};
+			buildConfigurationList = 9F6B1A7BCFF26D263B843F95 /* Build configuration list for PBXProject "Altara" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 0D6E4079E36703EBD37C0072;
+			productRefGroup = 0A3E27B8CA818264D75C8D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E8A8A10CB76CC155B1D5D1 /* Altara */,
+				538C8F882DA45C187D87D5EF /* AltaraWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A34E80FFF3447439DD2B00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE22F63926FE3731DDF84C0 /* Altara/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ED76EE6D6DD4E1A33D2C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55E83DD2320B1B463C36266 /* Altara/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2F5AAC46EB2B726186A2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBCC5ED310390ECDF47BAF8 /* AltaraWidgets/AltaraWidget.swift in Sources */,
+				314CBE5618EE8B3595A9EC2E /* AltaraWidgets/ObservationLiveWidget.swift in Sources */,
+				948075B9F2BCF9853AB303C4 /* Shared/AltitudeData.swift in Sources */,
+				A5E19077AB7F0512476FBED7 /* Shared/ObservationAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8F7B0FC8B51131AF7EA5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4118A89469172DAEBA24275D /* Altara/App/AltaraApp.swift in Sources */,
+				DC8A8FE683D7BE0A2F40AA5D /* Altara/Core/LiveObservation.swift in Sources */,
+				6A28FCE712B427D3C3A82AE1 /* Altara/Core/ObservationService.swift in Sources */,
+				E80B54E539702E60801DA216 /* Altara/Core/PlaceStore.swift in Sources */,
+				2E1CA668AAE194AC7DFBEF94 /* Altara/Views/DashboardView.swift in Sources */,
+				C38C11996181FAF5E4F3DE79 /* Altara/Views/PlacesView.swift in Sources */,
+				744DB3E911072F7A8B35E39B /* Altara/Views/RootView.swift in Sources */,
+				CAE4126752663718CAE08BA8 /* Altara/Views/SettingsView.swift in Sources */,
+				F93334E85CADF3A1FED5EB53 /* Altara/Views/Theme.swift in Sources */,
+				8A09167B48B640067A2452B9 /* Shared/AltitudeData.swift in Sources */,
+				8033ECC3C331F13F567FE181 /* Shared/ObservationAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE3E71EF8635D2BF27913BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538C8F882DA45C187D87D5EF /* AltaraWidgets */;
+			targetProxy = 1241936D4DD3AAD68FE7BFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B0C687DF8B6B8DC790B519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73EBF6644258C120893E685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B39DBE73A95FA026FEF7659C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Altara/Resources/Altara.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 68D7EM232X;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Altara/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaniel.altara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B41D460D8EFA4619EEC1CFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AltaraWidgets/AltaraWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AltaraWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaniel.altara.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE1A187C6FB61E654EB8934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AltaraWidgets/AltaraWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AltaraWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaniel.altara.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4207C43401559CC85896303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Altara/Resources/Altara.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 68D7EM232X;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Altara/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaniel.altara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ED72DBAB76C63CA13E1C97B /* Build configuration list for PBXNativeTarget "AltaraWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41D460D8EFA4619EEC1CFDC /* Debug */,
+				CEE1A187C6FB61E654EB8934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6B1A7BCFF26D263B843F95 /* Build configuration list for PBXProject "Altara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EBF6644258C120893E685D /* Debug */,
+				0B0C687DF8B6B8DC790B519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B849D4863CFB056CB1A0FBC6 /* Build configuration list for PBXNativeTarget "Altara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39DBE73A95FA026FEF7659C /* Debug */,
+				D4207C43401559CC85896303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244210E48437B6556980A702 /* Project object */;
+}

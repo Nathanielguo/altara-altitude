@@ -1,0 +1,19 @@
+# Xcode and macOS user state
+.DS_Store
+*.xcuserstate
+**/xcuserdata/
+
+# Local build and delivery artifacts
+**/DerivedData/
+**/build/
+**/.build/
+*.ipa
+*.xcarchive
+dist/
+
+# Personal project notes, references and original screenshots
+/AGENTS.md
+/MEMORY.md
+/Design/
+/IMG_*.PNG
+/docs/images/*.png
